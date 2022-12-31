@@ -1,0 +1,86 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #807a718a;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.left-section {
+    margin-left: 200px;
+    margin-right: 30px;
+    white-space: nowrap;
+    color: #ffffff; 
+    font-size: 28px; 
+    font-style: italic; 
+    user-select: none;
+}
+.middle-section {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+
+
+.welcome-button,
+.tea-button,
+.join-button,
+.members-button,
+.community-button,
+.school-icon-button,
+.discord-icon-button {
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    height: 100px;
+    background-color: inherit;
+    transition: background-color 0.15s, color 0.15s;
+}
+.welcome-button:hover,
+.tea-button:hover,
+.join-button:hover,
+.members-button:hover,
+.community-button:hover,
+.school-icon-button:hover,
+.discord-icon-button:hover {
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.welcome-button:active,
+.tea-button:active,
+.join-button:active,
+.members-button:active,
+.community-button:active,
+.school-icon-button:active,
+.discord-icon-button:active {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.right-section {
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.school-icon {
+    height: 50px;
+}
+.school-icon-button {
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
+.discord-icon {
+    height: 50px;
+    border-radius: 1000px;
+}
+.discord-icon-button {
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}

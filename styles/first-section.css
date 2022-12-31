@@ -1,0 +1,35 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.first-section{
+    height: 1100px;
+    background-color: #ffb31c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+
+.background-img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.slogan {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    white-space: nowrap;
+    user-select: none;
+}
+
+
+

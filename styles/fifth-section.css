@@ -1,0 +1,38 @@
+.fifth-section {
+    height: 1100px;
+    background-color: #A3BB98;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.community-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.community-title {
+    font-size: 86px;
+    text-align: center;
+    user-select: none;
+    color: #516747;
+}
+.community-info {
+    font-size: 48px;
+    user-select: none;
+    color: #354a2d;
+}
+.AAPI-picture {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.AAPI-img {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+
+}

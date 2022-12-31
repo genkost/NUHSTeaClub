@@ -1,0 +1,36 @@
+.third-section {
+    height: 1100px;
+    background-color: #FBC252;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.poster-info {
+    margin-left: 15px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+.info-text {
+    font-size: 86px;
+    color: #956900;
+    user-select: none;
+}
+.info-text-description {
+    color: #744d00;
+    font-size: 48px;
+    user-select: none;
+}
+.poster {
+    text-align: center;
+}
+.poster-img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 75%;
+    border: solid;
+    border-color: #744d00;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 45px;
+}

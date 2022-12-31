@@ -1,0 +1,40 @@
+.fourth-section {
+    height: 1100px;
+    background-color: #F0ECCF;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+}
+
+.promo {
+    display: grid;
+    text-align: center;
+}
+.promo-title {
+    margin-top: 250px;
+    color: #8b876d;
+    font-size: 86px;
+    user-select: none;
+}
+.promo-text {
+    color: #6d6a51;
+    font-size: 48px;
+    user-select: none;
+}
+.promo-pictures {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.promo-imgs {
+    height: 750px;
+    display:inline-block;
+    border-color: #383729;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+}

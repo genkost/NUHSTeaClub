@@ -1,0 +1,38 @@
+.second-section {
+    height: 1100px;
+    background-color: #FFB100;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.tea-info {
+    margin-left: 15px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+.title_second-section{
+    font-size: 86px;
+    user-select: none;
+    color: #965900;
+}
+.description_second-section {
+    font-size: 48px;
+    color: #784000;
+    user-select: none;
+}
+.tea-pictures {
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr;
+}
+.tea-imgs {
+    margin-top: 5px;
+
+    max-width: 90%;
+    max-height: 100%;
+    border: solid;
+    border-color: #331400;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 50px;
+}
